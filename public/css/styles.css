@@ -1,0 +1,49 @@
+html{
+	background: orangered;
+}
+
+.firstDiv{
+	position: absolute;
+	width: 458px;
+	height: 780px;
+	background-color: lightsalmon;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.secondDiv{
+	position: absolute;
+	left: 700px;
+	width: 600px;
+	height: 780px;
+	background-color: indianred;
+}
+
+.secondH3{
+	text-align: left;
+	padding-left: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	margin-top: 80px;
+}
+
+.firstH3{
+	margin-top: 30px;
+}
+
+.firstH1{
+	font-family: 'Courier New', Courier, monospace;
+	margin-top: 300px;
+}
+
+.image{
+    margin-left: 200px;
+}
+
+.form{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.button{
+    margin-left: 10px;
+}

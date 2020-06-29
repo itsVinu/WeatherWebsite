@@ -1,0 +1,29 @@
+<%- include("header")  -%>
+
+	<div class="container">
+		<div class="firstDiv">
+			<h1 class="firstH1">Weather Finder</h1>
+			<h3 class="firstH3">Find out temprature, conditions and more..</h3>
+		</div>
+
+		<div class="secondDiv">
+            <form action="/" method="POST" class="form">
+                <input type="text" placeholder="Enter city name" name="cityName">
+			    <button class="btn btn-danger button">Get Weather</button>
+            </form>
+			
+			<h3 class="secondH3">Location: <%= city %></h3>
+			<hr>
+			<h3 class="secondH3">Temprature: <%= temprature %></h3>
+			<hr>
+			<h3 class="secondH3">Wind Speed: <%= wind%> km/hr</h3>
+			<hr>
+			<h3 class="secondH3">Humidity: <%= humidity%> % </h3>
+			<hr>
+            <h3 class="secondH3">Condition: <%= forcast %></h3>
+            <img src=" <%= imageURL %> " class="image">
+		</div>
+	</div>	
+
+
+<%- include("footer")  -%>
